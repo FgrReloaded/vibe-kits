@@ -8,6 +8,7 @@ export interface ScreenshotOptions {
 	selector?: string;
 	delay?: number;
 	timeout?: number;
+	deviceScaleFactor?: number;
 }
 
 export interface ScreenshotResponse {
