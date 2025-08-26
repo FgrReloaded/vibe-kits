@@ -1,5 +1,4 @@
 {
-	"extends": "../../tsconfig.json",
 	"compilerOptions": {
 		"outDir": "dist",
 		"rootDir": "src",
@@ -9,6 +8,7 @@
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
 		"strict": true,
+		"strictNullChecks": true,
 		"skipLibCheck": true,
 		"forceConsistentCasingInFileNames": true,
 		"declaration": true,
